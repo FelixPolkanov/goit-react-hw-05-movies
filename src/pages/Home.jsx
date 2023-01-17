@@ -11,6 +11,7 @@ export default function Home() {
       try {
         const data = await fetchTrendMovies();
         setMovies(data);
+     
       } catch (error) {
         console.log(error.message);
       }
@@ -23,7 +24,7 @@ export default function Home() {
       <Box as="h2" textAlign="center" m="10px">
         Trending today
       </Box>
-     {/* {movies && <VideoGallery movies={movies} />} */}
+   {movies && <div> AAAAAAA </div>}
     </main>
   );
 }
