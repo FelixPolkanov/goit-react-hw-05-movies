@@ -4,6 +4,7 @@
 // import { Outlet } from 'react-router-dom';
 import { StyledLink, Header, Container } from './SharedLayout.styled.jsx';
 
+
 export const Layout = () => {
   return (
     <Container>

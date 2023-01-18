@@ -10,8 +10,8 @@ export default function Home() {
     async function fetchMovies() {
       try {
         const data = await fetchTrendMovies();
+
         setMovies(data);
-     
       } catch (error) {
         console.log(error.message);
       }
@@ -24,9 +24,7 @@ export default function Home() {
       <Box as="h2" textAlign="center" m="10px">
         Trending today
       </Box>
-   {movies && <div> AAAAAAA </div>}
+      <div> {movies} </div>
     </main>
   );
 }
-
-
