@@ -28,7 +28,7 @@ export const MovieReviews = () => {
           ))}
         </MovieReviewsUl>
       ) : (
-        <div>We don't have any reviews for this movie...</div>
+        <div>Sorry, we don't have any reviews...</div>
       )}
     </MovieReviewsWrapper>
   );

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { ButtonWrapper } from './MovieSearch.styled';
 
 const MoviesSearch = ({query}) => {
   const setSearchParams = useSearchParams()[1];
@@ -15,7 +16,7 @@ const MoviesSearch = ({query}) => {
     <>
       <form onSubmit={handleSubmit}>
         <input type="text" value={value} onChange={e => setValue(e.target.value)}/>
-        <button type="submit">Search</button>
+        <ButtonWrapper type="submit">Search</ButtonWrapper>
       </form>
     </>
   );
