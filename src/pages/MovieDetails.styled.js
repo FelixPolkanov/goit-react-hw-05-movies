@@ -20,7 +20,7 @@ export const MovieDetailsImageWrapper = styled.img`
 
 export const MovieDetailsButton = styled.button`
     border: none;
-    background-color: rgb(220, 40, 30);
+    background-color: blue;
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
