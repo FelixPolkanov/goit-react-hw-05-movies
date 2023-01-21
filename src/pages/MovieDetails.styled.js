@@ -25,6 +25,7 @@ export const MovieDetailsButton = styled.button`
     padding: 5px 10px;
     color: white;
     &:hover, &:focus{
-        background-color: rgb(230, 100, 80);
+        color: blue;
+        background-color: #97b8de;
     }
 `;
